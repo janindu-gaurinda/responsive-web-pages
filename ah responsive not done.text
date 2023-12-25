@@ -1,0 +1,38 @@
+
+/*-------------------------------------------------------------------
+@media only screen and (min-width: 768px)*/ 
+@media screen and (max-width: 768px) {
+  .back {
+    height: calc(600px - 50%);
+  }
+  .nvai1 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  .navi2 ul {
+    list-style-type: none;
+    margin-top: calc(70px - 4%); /*70px*/
+  }
+  .navi2 li {
+    margin: 14px; /*20px*/
+  }
+  .navi2 a {
+    font-size: 20px; /*25px*/
+  }
+  .heading1{
+    margin: 10px 0 0 10px; /*60px 0 0 60px*/ 
+}
+.heading1 h1{
+  font-size: calc(100px - 90%); /*100px*/
+}
+.para1{
+  margin-left: 10px; /*60px*/
+  width: calc(500px - 10%);
+}
+.content{
+  height: calc(100px - 10%);
+}
+.content h1{
+  font-size:calc(50px - 50%);  /*50px*/
+}
+
+}

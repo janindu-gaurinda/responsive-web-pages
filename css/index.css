@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+}
+.back {
+  background-image: url("/img/img1.jpg");
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+}
+.nvai1 {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  height: 40px;
+  width: 100%;
+  background-color: #012a4a9d; /* Darkolivegreen with 50% opacity */
+  align-items: center;
+}
+/**
+.fa-solid.fa-phone{
+ text-align: left;
+}
+.fa-solid.fa-envelope{
+ text-align: right;
+ margin-left: 150px;
+}
+.nvai1 h2 {
+margin-right: 0;
+}*/
+
+.nvai1 h1 {
+  font-size: 1.063em; /*17px*/
+  margin-left: 1.25rem; /*20px*/
+  color: white;
+}
+.nvai1 h1:hover {
+  text-decoration: underline;
+}
+.nvai1 h2 i {
+  font-size:1em; /*16px*/
+  margin-left: 0.5rem; /*8px*/
+  color: white;
+}
+.nvai1 h2 i:hover {
+  color: #ffb703;
+}
+.navi2 ul {
+  list-style-type: none;
+  margin-top: 4.375rem; /*70px*/
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navi2 li {
+  margin: 1.25rem; /*20px*/
+}
+.navi2 a {
+  text-decoration: none;
+  color: white; /* Set your desired text color */
+  font-size: 1.563em; /*25px*/
+  font-weight: bold;
+}
+.navi2 a:hover {
+    color: #ffb703;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    /* Remove line-height from hover state */
+}
+.navi2 button {
+  padding:  0.313rem 0.625rem; /* 5px 10px*/
+  background-color: #ffb703; /* Set your desired button background color */
+  color: white; /* Set your desired button text color */
+  font-weight: bolder;
+  font-size: 1.25em; /*20px*/
+  border: none;
+  cursor: pointer;
+}
+.navi2 button:hover {
+  padding: 0.313rem 0.625rem; /* 5px 10px*/
+  background-color: #ffffff; /* Set your desired button background color */
+  color: #ffb703; /* Set your desired button text color */
+  font-weight: bolder;
+  font-size: 1.25em; /*20px*/
+  border-radius: 5px;
+  cursor: pointer;
+}
+.heading1{
+    margin: 3.75rem 0 0 3.75rem; /*60px 0 0 60px*/ 
+}
+.heading1 h1{
+    color: white;
+    font-size: 6.25em; /*100px*/
+}
+.para1{
+    margin-left: 3.75rem; /*60px*/
+    width: 500px;
+}
+.para1{
+    color: white;
+    text-align: justify;
+}
+/*------------------------------------------------------------------*/
+.content{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content h1{
+  font-size: 3.125em;  /*50px*/
+  color: #001233;
+  text-transform: uppercase;
+}
+.content2{
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.content2 p{
+  margin: 3.125rem; /*50px*/;
+  text-align: justify;
+}
+.boz1{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #023e7d;
+  justify-content: center;
+  align-items: center;
+}
+.boz1 img{
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin: 0.938rem;  /*15px*/;
+  border: 5px solid #1282a2;
+}
+.footer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #00171f;
+  height: auto;
+  width: 100%;
+  color: white;
+}
+.fimg{
+  margin: 50px;
+  display: grid;
+  place-items: center;
+}
+.fimg img{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+.fimg p{
+  text-align: justify;
+}
+.fimg h1 i:hover{
+  color:#ffb703;
+}
+
+
+
+
+
+
+.notification {
+    display: none;
+    background-color: #ffffffc4; /* Set your desired notification background color */
+    color: black; /* Set your desired text color */
+    padding: 0.938rem;  /*15px*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 600px;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width */
+}
+.notification img{
+    height: 450px;
+    width: 500px;
+    align-items: center;
+    margin: 1.25rem; /*20px*/
+    border-radius: 1.875rem;  /*30px*/
+    border: 5px solid #000000;
+}
+
+.notification button {
+    background-color: #03045e; /* Set your desired button background color */
+    color: white; /* Set your desired button text color */
+    border: none;
+    padding: 0.5rem 0.938rem; /*8px 15px*/
+    cursor: pointer;
+    margin-top: 0.625rem; /*10px*/
+}
+span{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.25em; /*20px*/
+    font-weight: bold;
+}
